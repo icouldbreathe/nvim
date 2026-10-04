@@ -7,3 +7,5 @@ vim.opt.linebreak = true
 vim.opt.showbreak = "↪ "
 
 vim.opt.backupcopy = "yes"
+
+vim.opt.guifont = "MesloLGS Nerd Font Mono:h11"

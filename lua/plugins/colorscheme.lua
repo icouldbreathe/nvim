@@ -1,14 +1,20 @@
 return {
-
   {
-    "rockyzhang24/arctic.nvim",
-    branch = "v2",
-    dependencies = { "rktjmp/lush.nvim" },
+    "Mofiqul/vscode.nvim",
+  },
+  {
+    "miikanissi/modus-themes.nvim",
+  },
+  {
+    "nickkadutskyi/jb.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "vscode",
     },
   },
 }
